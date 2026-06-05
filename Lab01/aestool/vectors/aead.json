@@ -1,0 +1,32 @@
+[
+  {
+    "name": "NIST GCM zero-length plaintext and AAD",
+    "mode": "gcm",
+    "key": "00000000000000000000000000000000",
+    "iv": "000000000000000000000000",
+    "aad": "",
+    "plaintext": "",
+    "ciphertext": "",
+    "tag": "58e2fccefa7e3061367f1d57a4e7455a"
+  },
+  {
+    "name": "NIST GCM one-block plaintext",
+    "mode": "gcm",
+    "key": "00000000000000000000000000000000",
+    "iv": "000000000000000000000000",
+    "aad": "",
+    "plaintext": "00000000000000000000000000000000",
+    "ciphertext": "0388dace60b6a392f328c2b971b2fe78",
+    "tag": "ab6e47d42cec13bdf53a67b21257bddf"
+  },
+  {
+    "name": "RFC 3610 CCM test vector 1",
+    "mode": "ccm",
+    "key": "c0c1c2c3c4c5c6c7c8c9cacbcccdcecf",
+    "iv": "00000003020100a0a1a2a3a4a5",
+    "aad": "0001020304050607",
+    "plaintext": "08090a0b0c0d0e0f101112131415161718191a1b1c1d1e",
+    "ciphertext": "588c979a61c663d2f066d0c2c0f989806d5f6b61dac384",
+    "tag": "17e8d12cfdf926e0"
+  }
+]

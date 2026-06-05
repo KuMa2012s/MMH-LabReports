@@ -1,0 +1,35 @@
+[
+  {
+    "name": "NIST SP 800-38A F.2.1 CBC-AES128 first block",
+    "mode": "cbc",
+    "key": "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv": "000102030405060708090a0b0c0d0e0f",
+    "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+    "ciphertext": "7649abac8119b246cee98e9b12e9197d"
+  },
+  {
+    "name": "NIST SP 800-38A F.3.1 CFB128-AES128 first block",
+    "mode": "cfb",
+    "key": "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv": "000102030405060708090a0b0c0d0e0f",
+    "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+    "ciphertext": "3b3fd92eb72dad20333449f8e83cfb4a"
+  },
+  {
+    "name": "NIST SP 800-38A F.4.1 OFB-AES128 first block",
+    "mode": "ofb",
+    "key": "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv": "000102030405060708090a0b0c0d0e0f",
+    "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+    "ciphertext": "3b3fd92eb72dad20333449f8e83cfb4a"
+  },
+  {
+    "name": "NIST SP 800-38A F.5.1 CTR-AES128 first block",
+    "mode": "ctr",
+    "key": "2b7e151628aed2a6abf7158809cf4f3c",
+    "iv": "f0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+    "plaintext": "6bc1bee22e409f96e93d7e117393172a",
+    "ciphertext": "874d6191b620e3261bef6864990db6ce"
+  }
+]
+
