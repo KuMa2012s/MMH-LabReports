@@ -1,0 +1,8 @@
+build/
+build-*/
+*.bin
+*.txt
+*.log
+*.csv
+*.json.out
+testing/

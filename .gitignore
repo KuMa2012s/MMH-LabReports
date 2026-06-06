@@ -1,0 +1,9 @@
+build/
+build-cmake-4.3.3/
+build-gcc/
+build-clang/
+build-clang-mingw/
+.aestool_nonce_registry
+testing/
+*.bin
+*.meta.json
