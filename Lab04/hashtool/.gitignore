@@ -1,0 +1,11 @@
+build/
+build-*/
+testing/*
+!testing/.gitkeep
+*.bin
+*.pem
+*.der
+*.crt
+*.csr
+*.key
+*.log

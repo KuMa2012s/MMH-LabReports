@@ -1,0 +1,12 @@
+{
+  "description": "Known-answer tests for Lab 4 hashtool using input ASCII 'abc'. SHAKE outlen values are bytes.",
+  "input_ascii": "abc",
+  "sha256_abc": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+  "sha512_abc": "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f",
+  "sha3_256_abc": "3a985da74fe225b2045c172d6bd390bd855f086e3e9d525b46bfe24511431532",
+  "sha3_512_abc": "b751850b1a57168a5693cd924b6b096e08f621827444f70d884f5d0240d2712e10e116e9192af3c91a7ec57647e3934057340b4cf408d5a56592f8274eec53f0",
+  "shake128_outlen": 32,
+  "shake128_abc": "5881092dd818bf5cf8a3ddb793fbcba74097d5c526a6d35f97b83351940f2cc8",
+  "shake256_outlen": 64,
+  "shake256_abc": "483366601360a8771c6863080cc4114d8db44530f8f1e1ee4f94ea37e78b5739d5a15bef186a5386c75744c0527e1faa9f8726e462a12a4feb06bd8801e751e4"
+}
