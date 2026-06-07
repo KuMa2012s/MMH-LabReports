@@ -1,0 +1,10 @@
+build/
+build-*/
+testing/*
+!testing/.gitkeep
+*.bin
+*.ct
+*.pem
+*.der
+*.json
+*.txt
