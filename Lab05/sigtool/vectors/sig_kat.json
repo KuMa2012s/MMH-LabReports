@@ -1,0 +1,15 @@
+{
+  "description": "Lab 5 sigtool self-validation vectors. Digital signature tests generate lab-local keys and verify signatures because RSA-PSS is randomized and ECDSA uses deterministic nonce derivation.",
+  "algorithms": [
+    "ecdsa-p256",
+    "ecdsa-p384",
+    "rsa-pss-3072"
+  ],
+  "message": "Lab 5 signature KAT message",
+  "required_negative_tests": [
+    "modified message fails",
+    "modified signature fails",
+    "wrong algorithm fails",
+    "unsupported hash fails"
+  ]
+}

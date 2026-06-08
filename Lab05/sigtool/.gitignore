@@ -1,0 +1,7 @@
+build/
+testing/*.pem
+testing/*.sig
+testing/*.b64
+testing/*.der
+testing/*.bin
+testing/bad.*
