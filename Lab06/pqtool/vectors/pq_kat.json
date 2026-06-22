@@ -1,0 +1,9 @@
+{
+  "name": "pqtool offline self-validation vectors",
+  "description": "The KAT runner invokes OpenSSL-backed pqtool self-validation for ML-DSA signatures, ML-KEM encapsulation/decapsulation, and tamper/mismatch detection.",
+  "algorithms": [
+    "mldsa-44",
+    "mldsa-65",
+    "mlkem-512"
+  ]
+}
